@@ -3,6 +3,12 @@
       <theme-stylesheet name="emmett"/>
   </after-stylesheets:>
   <field-list: replace>
+    <a action="edit" if="&can_edit?">
+      <ht key="pages.actions.edit"
+        name="&this.respond_to?(:name) ? this.name : ''">
+        Edit Page
+      </ht>
+    </a>
     <view:body_html/>
   </field-list:>
 </show-page>
