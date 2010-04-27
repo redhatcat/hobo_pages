@@ -2,6 +2,7 @@ Install
 =======
 
 script/plugin install git://github.com/redhatcat/hobo_pages.git
+
 script/generate hobo_migration
 
 *Note: The vanilla hobo install does not touch plugins when using
